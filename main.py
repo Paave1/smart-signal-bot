@@ -4,8 +4,9 @@ import os
 
 app = Flask(__name__)
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
+BOT_TOKEN = os.getenv("7753764629:AAGPqSzLV7PmJ0MTW1PAhzCQ7VEuSvpSTcw
+")
+CHAT_ID = os.getenv("1187964712")
 
 @app.route('/webhook', methods=['POST'])
 def webhook():
